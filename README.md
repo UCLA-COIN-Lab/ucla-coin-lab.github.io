@@ -1,2 +1,2 @@
 # ucla-coin-lab.github.io
-UCLA COIN Lab website
+UCLA COIN Lab website.
