@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2774ae">
+    <meta name="description" content="UCLA CS239: Topics in Computer Science — Large Language Models for Code Intelligence. Fall 2026 course information, staff, coursework, and schedule.">
+    <title>UCLA CS239 | Large Language Models for Code Intelligence | Fall 2026</title>
+    <link rel="icon" href="../../assets/coin_logo_rectangle.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to course content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="university-brand" href="https://www.ucla.edu/" aria-label="UCLA home">
+          <img src="../../assets/ucla-logo-white.svg" alt="UCLA" width="105" height="34">
+        </a>
+
+        <nav class="course-nav" aria-label="Course sections">
+          <ul>
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#info">General Infomration</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#coursework">Coursework</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+          </ul>
+        </nav>
+
+        <div class="lab-brand">
+          <img src="../../assets/coin_logo_rectangle.png" alt="UCLA COIN Lab" width="144" height="68">
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <div class="course-heading container">
+        <h1>
+          <span class="course-number">CS239: Topics in Computer Science</span>
+          <span class="course-title">Large Language Models<br class="title-break"> and Code Intelligence</span>
+        </h1>
+        <p class="course-term"> Fall 2026</p>
+      </div>
+
+      <!-- TODO: Replace the instructor name placeholder. -->
+      <section class="section" id="staff" aria-labelledby="staff-title">
+        <div class="container">
+          <h2 id="staff-title">Course Staff</h2>
+          <ul class="staff-list">
+            <li class="staff-member">
+              <img class="staff-photo" src="../../assets/profile_full.jpg" alt="Course instructor" width="106" height="106">
+              <h3 class="staff-name"><a href="https://yrbding.github.io/">Robin Ding</a></h3>
+              <p class="staff-role">Instructor</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-shaded" id="info" aria-labelledby="logistics-title">
+        <div class="container">
+          <h2 id="logistics-title">General Information</h2>
+          <!-- TODO: Replace bracketed values with confirmed course details and links. -->
+          <dl class="logistics-list">
+            <div><dt>Lectures</dt><dd>Mondays and Wednesdays, 4:00–5:50 p.m. @ GEOLOGY 6704</dd></div>
+            <div><dt>Office hours</dt><dd>Thursdays, 4:00–5:00 p.m. @ Engineering VI, in front of Office 295</dd></div>
+            <div><dt>Discussion</dt><dd>Piazza · <a href="https://piazza.com/ucla/fall2026/cs239">link</a></dd></div>
+            <div><dt>Contact</dt><dd>Students should ask all course-related questions in public Piazza. All announcements will also be made in Piazza.</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="content" aria-labelledby="content-title">
+        <div class="container">
+          <h2 id="content-title">Content</h2>
+          <h3>What is this course about?</h3>
+          <p>
+            This seminar course will discuss the foundations of large language models and
+            their role in pushing the frontier of code intelligence. We will discuss the
+            impactful papers that contribute to the desing of modern agentic LLMs, including model architectures,
+            data, pre-training, post-training, and inference, and these models' success
+            to advance code intelligence in software engineering, cybersecurity, and formal verification.
+          </p>
+
+          <h3>Recommended prerequisites</h3>
+          <p>
+            Advanced knowledge in artificial intelligence (with a focus on large language
+            models) and software engineering.
+          </p>
+          <ul>
+            <li>CS 161: Fundamentals of Artificial Intelligence, or the equivalent.</li>
+            <li>CS C160F: Foundation Models: Principles and Practice, or the equivalent.</li>
+            <li>CS 130: Software Engineering, or the equivalent.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-shaded" id="coursework" aria-labelledby="coursework-title">
+        <div class="container">
+          <h2 id="coursework-title">Coursework</h2>
+          <h3>Paper Presentation</h3>
+          <p>
+            Each student will present one paper from the course reading list. Plan for a
+            <strong>40-minute presentation</strong> followed by <strong>15 minutes of Q&amp;A</strong>.
+            Select a paper and register using the
+            <a href="https://docs.google.com/spreadsheets/d/1Zg2VTLNadNhKtcyLUsYySRaxQkzPSk-Iogn-waLO_1g/edit?usp=sharing">paper presentation sign-up sheet</a>
+            by <strong>October 5</strong>.
+          </p>
+          <p>
+            All students are expected to participate actively in discussions of their
+            classmates’ presentations by asking questions, sharing insights, and offering
+            constructive feedback.
+          </p>
+
+          <h3>Course Project</h3>
+          <p>
+            Course projects may be completed in teams of <strong>up to five students</strong>.
+            Each team will develop its project over the quarter through three
+            major milestones:
+          </p>
+          <p>
+            <strong>Proposal:</strong> A presentation of approximately 15 minutes and a
+            one-page report.
+          </p>
+          <p>
+            <strong>Midterm Update:</strong> A presentation of approximately 30 minutes
+            and a four-page report.
+          </p>
+          <p>
+            <strong>Final Report:</strong> A presentation of approximately 45 minutes and
+            a nine-page report. Mid-term and final project reports must include a dedicated section explaining the individual
+            contributions of each team member.
+          </p>
+          <h3>Grading</h3>
+          <p>
+            The final grade consists of <strong>paper presentation (35%)</strong>,
+            <strong>participation and discussion (15%)</strong>, and the
+            <strong>course project (50%)</strong> (the project grade will reflect the team’s progress throughout the quarter and the quality of milestone presentations, instead of any single report).
+          </p>
+
+          <p class="schedule-note">See the <a href="#schedule">schedule</a> for presentation dates and submission deadlines.</p>
+        </div>
+      </section>
+
+      <section class="section" id="resources" aria-labelledby="resources-title">
+        <div class="container">
+          <h2 id="resources-title">Sponsors and Resources</h2>
+          <h3>Course Support</h3>
+          <p>
+            We thank Google for providing TPU resources to support our course projects,
+            and the Google MaxText Team (especially Dr. Hengtao Guo and Dr. Alex Shraer)
+            for the open-source technical support on TPUs. We also thank Anthropic for its support through team plans for scientists.
+          </p>
+
+          <h3>Additional Student Resources</h3>
+          <p>
+            Beyond the resources dedicated for our course, students can also explore other resources to support their learning and course projects. A few pointers:
+          </p>
+          <p>
+            <strong><a href="https://kiro.dev/blog/students-2026/">Kiro for Students</a>:</strong>
+            Students can access frontier agentic LLMs through this free plan for students.
+          </p>
+          <p>
+            <strong><a href="https://gemini.google/students/">Google AI Pro for Students</a>:</strong>
+            Students can access advanced Gemini models and GPUs through this student plan.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-shaded schedule-section" id="schedule" aria-labelledby="schedule-title">
+        <div class="container">
+          <div class="section-heading">
+            <h2 id="schedule-title">Schedule</h2>
+            <span class="section-note">Fall 2026</span>
+          </div>
+          <p id="schedule-description">Readings are listed by lecture date. November 9 is split between the mid-term project report and a reading discussion.</p>
+          <p id="schedule-scroll-hint" class="scroll-hint">Scroll horizontally to see all columns.</p>
+          <!-- Reading dates, topics, titles, and links follow Reading_List_CS239_LLM4CodeIntell.xlsx. -->
+          <div class="table-scroll" role="region" aria-labelledby="schedule-title" aria-describedby="schedule-scroll-hint" tabindex="0">
+            <table aria-describedby="schedule-description">
+              <caption class="visually-hidden">CS239 Fall 2026 course schedule</caption>
+              <colgroup>
+                <col class="date-column">
+                <col class="topic-column">
+                <col class="reading-column">
+                <col class="due-column">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Topic</th>
+                  <th scope="col">Reading List</th>
+                  <th scope="col" class="due-cell">Due</th>
+                </tr>
+              </thead>
+              <tbody class="lecture-group" data-date="2026-09-28">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-09-28">Mon Sep 28</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Overview</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-09-30">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-09-30">Wed Sep 30</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Guest Lecture: Dr. Hengtao Guo, MaxText@Google</strong><br>
+                  </th>
+                  <td class="reading-cell">
+                    Google MaxText: <a href="https://maxtext.readthedocs.io/en/latest/index.html">Docs</a>, <a href="https://github.com/AI-Hypercomputer/maxtext">Code</a>
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-05">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-10-05">Mon Oct 5</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Model Architecture:</strong> Modern Attention Mechanism
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2305.13245">GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints</a></p>
+                    <p><a href="https://arxiv.org/abs/2502.11089">Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention</a></p>
+                    <p><a href="https://arxiv.org/abs/2412.06464">Gated Delta Networks: Improving Mamba2 with Delta Rule</a></p>
+                    <p><a href="https://arxiv.org/pdf/2510.26692">Kimi Linear: An Expressive, Efficient Attention Architecture</a></p>
+                  </td>
+                  <td class="due-cell"><strong>Paper Registration Due</strong></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-07">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-07">Wed Oct 7</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Language Modeling:</strong> Scaling Law of LLMs
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models</a></p>
+                    <p><a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Language Modeling:</strong> Statistical Predictability of Source Code
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://dl.acm.org/doi/10.5555/2337223.2337322">On the naturalness of software</a></p>
+                    <p><a href="https://arxiv.org/abs/2107.03374">Evaluating Large Language Models Trained on Code</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-09">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-10-09">Fri Oct 9</time></th>
+                  <th scope="row" class="topic-cell">No Class</th>
+                  <td class="reading-cell">—</td>
+                  <td class="due-cell"><strong>Project Team List Due</strong></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-12">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-12">Mon Oct 12</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Model Architecture:</strong> Low-rank Adapter
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2106.09685">LoRA: Low-Rank Adaptation of Large Language Models</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Model Architecture:</strong> Mixture of Experts
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/1701.06538">Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer</a></p>
+                    <p><a href="https://arxiv.org/abs/2101.03961">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-14">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-10-14">Wed Oct 14</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Course project proposal</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-19">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-19">Mon Oct 19</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Data:</strong> High-quality Data
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2306.11644">Textbooks Are All You Need</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Data:</strong> Synthetic Data
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2304.12244">WizardLM: Empowering large pre-trained language models to follow complex instructions</a></p>
+                    <p><a href="https://arxiv.org/abs/2312.02120">Magicoder: Empowering Code Generation with OSS-Instruct</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-21">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-21">Wed Oct 21</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Distributed Training:</strong> Memory Optimization
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/1910.02054">ZeRO: Memory Optimizations Toward Training Trillion Parameter Models</a></p>
+                    <p><a href="https://arxiv.org/abs/2104.07857">ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"><strong>Proposal one-pager Due</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Distributed Training:</strong> Parallelism
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/1909.08053">Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism</a></p>
+                    <p><a href="https://arxiv.org/abs/2104.04473">Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-26">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-26">Mon Oct 26</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Context Management:</strong> Memories
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2310.08560">MemGPT: Towards LLMs as Operating Systems</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Context Management:</strong> Software Repositories
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2310.11248">CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion</a></p>
+                    <p><a href="https://arxiv.org/abs/2310.06770">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-10-28">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-28">Wed Oct 28</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Agents:</strong> LLM Agents
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a></p>
+                    <p><a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Agents:</strong> Coding Agents
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2407.16741">OpenHands: An Open Platform for AI Software Developers as Generalist Agents</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-02">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-02">Mon Nov 2</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Agents:</strong> Coding Agents
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2405.15793">SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Inference Efficiency:</strong> Inference Engine
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2309.06180">Efficient Memory Management for Large Language Model Serving with PagedAttention</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-04">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-04">Wed Nov 4</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Mid-term project report</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-09">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-09">Mon Nov 9</time></th>
+                  <th scope="row" class="topic-cell">
+                    <span class="session-part">First half</span>
+                    <strong>Mid-term project report</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <span class="session-part">Second half</span>
+                    <strong>Inference Efficiency:</strong> Inference Engine
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2312.07104">SGLang: Efficient Execution of Structured Language Model Programs</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-11">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-11">Wed Nov 11</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>No class</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"><strong>Midterm report due</strong></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-16">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-16">Mon Nov 16</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Inference Efficiency:</strong> Speculative Decoding
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2211.17192">Fast Inference from Transformers via Speculative Decoding</a></p>
+                    <p><a href="https://arxiv.org/abs/2404.19737">Better &amp; Faster Large Language Models via Multi-token Prediction</a></p>
+                    <p><a href="https://arxiv.org/abs/2607.05147">DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation</a></p>
+                    <p><a href="https://arxiv.org/abs/2602.06036">DFlash: Block Diffusion for Flash Speculative Decoding</a></p>
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-18">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-18">Wed Nov 18</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Post-training:</strong> Reinforcement Learning
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Post-training:</strong> On-policy Distillation
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2306.13649">On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes</a></p>
+                    <p><a href="https://arxiv.org/abs/2601.18734">Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-23">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-23">Mon Nov 23</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Cyber Security:</strong> Benchmark
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2506.02548">CyberGym: Evaluating AI Agents&#x27; Real-World Cybersecurity Capabilities at Scale</a></p>
+                    <p><a href="https://arxiv.org/abs/2605.11086">ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Cyber Security:</strong> Training
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2508.18370">Training Language Model Agents to Find Vulnerabilities with CTF-Dojo</a></p>
+                    <p><a href="https://arxiv.org/abs/2602.03012">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-25">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-25">Wed Nov 25</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Formal Verification:</strong> Benchmark
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2608.13522">Vero: Can AI Agents Build Formally Verified Software Repositories?</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
+                    <strong>Formal Verification:</strong> AI-driven Theorem Proving
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2510.01346">Aristotle: IMO-level Automated Theorem Proving</a></p>
+                  </td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-30">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-30">Mon Nov 30</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Final project report</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-12-02">
+                <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-12-02">Wed Dec 2</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Final project report</strong>
+                  </th>
+                  <td class="reading-cell">
+                    —
+                  </td>
+                  <td class="due-cell"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>UCLA · CS239 · Fall 2026</p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
