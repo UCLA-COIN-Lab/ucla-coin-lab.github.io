@@ -224,9 +224,14 @@ li + li {
   color: var(--muted);
 }
 
+#staff {
+  text-align: center;
+}
+
 .staff-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 28px 48px;
   margin: 0;
   padding: 0;
