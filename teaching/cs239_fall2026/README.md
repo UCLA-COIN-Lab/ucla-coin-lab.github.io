@@ -24,10 +24,14 @@ Models for Code Intelligence**. There is no build step or JavaScript dependency.
   The date and due cells use `rowspan` to cover the group's
   rows; update those spans if you add or remove a subtopic.
 - September 28 is the overview; September 30 is Dr. Hengtao Guo's guest lecture
-  with the MaxText repository link. October 14 is the project proposal session.
-  Mid-term reports occupy November 4 and the first half of November 9; the
-  SGLang reading is in the second half of November 9. Final project reports
-  occupy November 30 and December 2. Unspecified deadlines are left blank.
+  with the MaxText repository link. Project proposal presentations occupy
+  October 14 and 19, and the proposal one-pager is due October 26. Reading
+  sessions originally scheduled for October 19 through November 2 move forward
+  one class to October 21 through November 4, replacing the November 4 project
+  report session. The midterm project update occupies the first half of
+  November 9, followed by the SGLang reading in the second half. No written
+  midterm report is required. Final project reports occupy November 30 and
+  December 2. Unspecified deadlines are left blank.
 - Edit `style.css` to adjust colors, spacing, or typography. UCLA colors are
   defined at the top of the file.
 - The Sponsors and Resources section links to TRC, MaxText, Claude's program for
