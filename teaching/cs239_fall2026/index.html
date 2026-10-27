@@ -116,16 +116,12 @@
           <h3>Course Project</h3>
           <p>
             Course projects may be completed in teams of <strong>3-5 students</strong>.
-            Each team will develop its project over the quarter through three
+            Each team will develop its project over the quarter through two
             major milestones:
           </p>
           <p>
             <strong>Proposal:</strong> A presentation of approximately 15 minutes on October 14 or 19 and a
             one-page report due October 26.
-          </p>
-          <p>
-            <strong>Midterm Update:</strong> A presentation of approximately 30 minutes
-            on November 9. No written midterm report is required.
           </p>
           <p>
             <strong>Final Report:</strong> A presentation of approximately 45 minutes and
@@ -177,9 +173,9 @@
             <h2 id="schedule-title">Schedule</h2>
             <span class="section-note">Fall 2026</span>
           </div>
-          <p id="schedule-description">Readings are listed by lecture date. November 9 is split between the midterm project update and a reading discussion.</p>
+          <p id="schedule-description">Readings are listed by lecture date according to the finalized course schedule. There is no midterm project report or presentation.</p>
           <p id="schedule-scroll-hint" class="scroll-hint">Scroll horizontally to see all columns.</p>
-          <!-- Reading dates, topics, titles, and links follow Reading_List_CS239_LLM4CodeIntell.xlsx. -->
+          <!-- Reading dates, topics, titles, and links follow the linked paper presentation sign-up sheet. -->
           <div class="table-scroll" role="region" aria-labelledby="schedule-title" aria-describedby="schedule-scroll-hint" tabindex="0">
             <table aria-describedby="schedule-description">
               <caption class="visually-hidden">CS239 Fall 2026 course schedule</caption>
@@ -283,20 +279,27 @@
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/1701.06538">Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer</a></p>
-                    <p><a href="https://arxiv.org/abs/2101.03961">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></p>
                   </td>
                 </tr>
               </tbody>
               <tbody class="lecture-group" data-date="2026-10-14">
                 <tr>
-                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-10-14">Wed Oct 14</time></th>
+                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-10-14">Wed Oct 14</time></th>
+                  <th scope="row" class="topic-cell">
+                    <strong>Model Architecture:</strong> Mixture of Experts
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2101.03961">Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
                   <th scope="row" class="topic-cell">
                     <strong>Course project proposal</strong>
                   </th>
                   <td class="reading-cell">
                     —
                   </td>
-                  <td class="due-cell"></td>
                 </tr>
               </tbody>
               <tbody class="lecture-group" data-date="2026-10-19">
@@ -367,11 +370,10 @@
                 </tr>
                 <tr>
                   <th scope="row" class="topic-cell">
-                    <strong>Context Management:</strong> Software Repositories
+                    <strong>Context Management:</strong> Code Repository
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2310.11248">CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion</a></p>
-                    <p><a href="https://arxiv.org/abs/2310.06770">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</a></p>
                   </td>
                 </tr>
               </tbody>
@@ -379,63 +381,47 @@
                 <tr>
                   <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-02">Mon Nov 2</time></th>
                   <th scope="row" class="topic-cell">
+                    <strong>Context Management:</strong> Code Repository
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2310.06770">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
                     <strong>Agents:</strong> LLM Agents
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a></p>
                     <p><a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a></p>
                   </td>
-                  <td class="due-cell" rowspan="2"></td>
                 </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-04">
                 <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-04">Wed Nov 4</time></th>
                   <th scope="row" class="topic-cell">
                     <strong>Agents:</strong> Coding Agents
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2407.16741">OpenHands: An Open Platform for AI Software Developers as Generalist Agents</a></p>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody class="lecture-group" data-date="2026-11-04">
-                <tr>
-                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-04">Wed Nov 4</time></th>
-                  <th scope="row" class="topic-cell">
-                    <strong>Agents:</strong> Coding Agents
-                  </th>
-                  <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2405.15793">SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering</a></p>
                   </td>
-                  <td class="due-cell" rowspan="2"></td>
+                  <td class="due-cell"></td>
                 </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-09">
                 <tr>
+                  <th scope="rowgroup" class="lecture-date"><time datetime="2026-11-09">Mon Nov 9</time></th>
                   <th scope="row" class="topic-cell">
                     <strong>Inference Efficiency:</strong> Inference Engine
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2309.06180">Efficient Memory Management for Large Language Model Serving with PagedAttention</a></p>
-                  </td>
-                </tr>
-              </tbody>
-              <tbody class="lecture-group" data-date="2026-11-09">
-                <tr>
-                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-09">Mon Nov 9</time></th>
-                  <th scope="row" class="topic-cell">
-                    <span class="session-part">First half</span>
-                    <strong>Midterm project update</strong>
-                  </th>
-                  <td class="reading-cell">
-                    —
-                  </td>
-                  <td class="due-cell" rowspan="2"></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="topic-cell">
-                    <span class="session-part">Second half</span>
-                    <strong>Inference Efficiency:</strong> Inference Engine
-                  </th>
-                  <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2312.07104">SGLang: Efficient Execution of Structured Language Model Programs</a></p>
                   </td>
+                  <td class="due-cell"></td>
                 </tr>
               </tbody>
               <tbody class="lecture-group" data-date="2026-11-11">
@@ -482,7 +468,6 @@
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2306.13649">On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes</a></p>
-                    <p><a href="https://arxiv.org/abs/2601.18734">Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models</a></p>
                   </td>
                 </tr>
               </tbody>
@@ -490,15 +475,26 @@
                 <tr>
                   <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-23">Mon Nov 23</time></th>
                   <th scope="row" class="topic-cell">
+                    <strong>Post-training:</strong> On-policy Distillation
+                  </th>
+                  <td class="reading-cell">
+                    <p><a href="https://arxiv.org/abs/2601.18734">Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models</a></p>
+                  </td>
+                  <td class="due-cell" rowspan="2"></td>
+                </tr>
+                <tr>
+                  <th scope="row" class="topic-cell">
                     <strong>Cyber Security:</strong> Benchmark
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2506.02548">CyberGym: Evaluating AI Agents&#x27; Real-World Cybersecurity Capabilities at Scale</a></p>
                     <p><a href="https://arxiv.org/abs/2605.11086">ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?</a></p>
                   </td>
-                  <td class="due-cell" rowspan="2"></td>
                 </tr>
+              </tbody>
+              <tbody class="lecture-group" data-date="2026-11-25">
                 <tr>
+                  <th scope="rowgroup" class="lecture-date" rowspan="3"><time datetime="2026-11-25">Wed Nov 25</time></th>
                   <th scope="row" class="topic-cell">
                     <strong>Cyber Security:</strong> Training
                   </th>
@@ -506,18 +502,15 @@
                     <p><a href="https://arxiv.org/abs/2508.18370">Training Language Model Agents to Find Vulnerabilities with CTF-Dojo</a></p>
                     <p><a href="https://arxiv.org/abs/2602.03012">CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</a></p>
                   </td>
+                  <td class="due-cell" rowspan="3"></td>
                 </tr>
-              </tbody>
-              <tbody class="lecture-group" data-date="2026-11-25">
                 <tr>
-                  <th scope="rowgroup" class="lecture-date" rowspan="2"><time datetime="2026-11-25">Wed Nov 25</time></th>
                   <th scope="row" class="topic-cell">
                     <strong>Formal Verification:</strong> Benchmark
                   </th>
                   <td class="reading-cell">
                     <p><a href="https://arxiv.org/abs/2608.13522">Vero: Can AI Agents Build Formally Verified Software Repositories?</a></p>
                   </td>
-                  <td class="due-cell" rowspan="2"></td>
                 </tr>
                 <tr>
                   <th scope="row" class="topic-cell">
